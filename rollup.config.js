@@ -41,6 +41,10 @@ export default [
     file: 'lib/osc.browser.js',
   }),
   buildOptions({
+    input: 'src/message.js',
+    file: 'lib/message.js',
+  }),
+  buildOptions({
     input: 'entry/osc.browser.js',
     file: 'lib/osc.browser.min.js',
     isUglified: true,
